@@ -273,6 +273,27 @@ h1 {
   color: var(--cream);
 }
 
+.find-us-lead {
+  text-align: center;
+  margin: 0 0 4px;
+  font-size: 0.95rem;
+}
+
+.btn-jup {
+  background: var(--gold);
+  color: var(--purple-deep);
+}
+
+.btn-scan {
+  background: var(--teal);
+  color: var(--purple-deep);
+}
+
+.btn-vote {
+  background: var(--white);
+  color: var(--purple);
+}
+
 .steps {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
