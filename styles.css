@@ -235,6 +235,10 @@ h1 {
   margin-top: 16px;
 }
 
+.btn-buy {
+  grid-column: 1 / -1;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -277,6 +281,18 @@ h1 {
   text-align: center;
   margin: 0 0 4px;
   font-size: 0.95rem;
+}
+
+.find-us .btn-buy {
+  grid-column: auto;
+}
+
+.cta .actions {
+  grid-template-columns: 1fr;
+}
+
+.find-us .actions {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 }
 
 .btn-jup {
@@ -500,6 +516,8 @@ footer {
   .logo-wrap { width: 156px; height: 156px; }
   .actions,
   .steps { grid-template-columns: 1fr; }
+  .cta .actions,
+  .find-us .actions { grid-template-columns: 1fr; }
   .contract { flex-direction: column; }
   .copy-btn {
     border-left: 0;
